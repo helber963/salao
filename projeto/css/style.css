@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display SC', serif;
+}
+
+/**PRIMERA SESSÃO BANNER**/
+.banner {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 641px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-frase {
+    color: white;
+    font-size: 110px;
+    margin-left: 14%;
+    margin-top: 4%;
+    font-family: 'Playfair Display SC', serif;
+}
+/**SEGUNDA SESSÃO INFOS**/
+.sessao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+}
+
+.area-img img{
+    border-radius: 50%;
+    
+}
+
+.area-info {
+    margin-left: 5%;
+    height: auto;
+    width: 30%;
+}   
+
+.sessao2 h2{
+    color: #cb686a;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+/**TERCEIRA SESSÃO BANNER**/
+.sessao3{
+    background-image: url(../img/bem-estar.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 425px;
+    background-size: 100% auto;
+}
+.infor {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5%;
+    
+}
+.infor  p {
+    width: 30%;
+}
+.infor  h2 {
+    font-size: 30px;
+    width: 30%;
+    margin: 20px auto;
+}
+
+/**QUARTA SESSÃO BANNER**/
+.sessao4{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sessao4-infor {
+    margin-right: 5%;
+    height: auto;
+    width: 30%;
+    text-align: center;
+    
+}
+.sessao4-infor h2{
+    color: #cb686a;
+    margin: 20px auto;
+}
+.sessao4-img{
+    background-image: url(../img/video-cover.jpg);
+    background-repeat: no-repeat;
+    height: 315px;
+    width: 502px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**QUINTA SESSÃO SERVIÇOS**/
+.infor1{
+    text-align: center;
+}
+.infor1 h2{
+    color: #cb686a;
+}
+.infor1 p{
+    margin: 20px auto;
+}
+
+#cards {
+
+}
+#espaco-servicos {
+    text-align: center;
+    display: flex;
+    flex: row;
+    
+}
+.card-services{
+ width: 200px;
+}
+.card-services h2 {
+    color: #cb686a;
+    margin: 20px auto;
+}
+/**SEXTA SESSÃO CONTATO**/
+.sessao6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa {
+    background-image: url(../img/maps.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 722px;
+    width: 100%;
+
+}
+.contato{
+    background-color: #cb686a;
+    width: 70%;
+    height: 10em;
+}
+.contato h2, .meios{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contato .meios .tipo h4{
+    margin: 10px auto;
+}
+
+
+/**FOOTER**/
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: #978577;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* AREA RESPONSIVA*/
+
+@media screen and (max-width: 1220px) {
+    .banner {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 20em;
+    }
+    .banner-frase p {
+        font-size: 70px;
+        color: black;
+        
+    } 
+}
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 20em;
+    }
+    .banner-frase p {
+        font-size: 36px;
+        color: red;
+        padding-bottom: 50px;
+    }
+    section {
+        max-width: 768px;
+
+    }
+    p{
+        width: auto;
+    }
+}
