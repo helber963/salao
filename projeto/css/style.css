@@ -103,6 +103,12 @@
 }
 
 /**QUINTA SESSÃO SERVIÇOS**/
+.sessao5{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .infor1{
     text-align: center;
 }
@@ -112,15 +118,10 @@
 .infor1 p{
     margin: 20px auto;
 }
-
-#cards {
-
-}
-#espaco-servicos {
-    text-align: center;
+.cards {
     display: flex;
-    flex: row;
     
+    text-align: center;
 }
 .card-services{
  width: 200px;
@@ -142,34 +143,38 @@
     background-size: 100% auto;
     height: 722px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 130px;
 
 }
-.contato{
+.area-contato{
     background-color: #cb686a;
-    width: 70%;
-    height: 10em;
+    width: 850px;
+    height: 178px;
+    margin-top: 100px;
 }
-.contato h2, .meios{
+.contato h5, .meios{
     color: white;
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-
-.contato .meios .tipo h4{
-    margin: 10px auto;
+.tipo{
+    margin: auto 50px;
 }
+
 
 
 /**FOOTER**/
 footer{
-    margin-top: 30px;
     width: 100%;
     height: 60px;
     background-color: #978577;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top:20px;
 
 }
 
@@ -184,7 +189,6 @@ footer{
     }
     .banner-frase p {
         font-size: 70px;
-        color: black;
         
     } 
 }
@@ -194,7 +198,7 @@ footer{
     }
     .banner-frase p {
         font-size: 36px;
-        color: red;
+        
         padding-bottom: 50px;
     }
     section {
