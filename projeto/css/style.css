@@ -140,7 +140,7 @@
 .mapa {
     background-image: url(../img/maps.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     height: 722px;
     width: 100%;
     margin-bottom: -150px;
@@ -148,9 +148,10 @@
 }
 .contato{
     background-color: #cb686a;
-    width: 850px;
+    width: 50%;
     height: 178px;
     margin-top: 100px;
+    padding-top: 20px;
 }
 .contato h5, .meios{
     color: white;
@@ -159,7 +160,7 @@
     text-align: center;
 }
 .tipo{
-    margin: auto 50px;
+    width: 30%;
 }
 
 
@@ -172,85 +173,4 @@ footer{
     text-align: center;
     padding-top:20px;
 
-}
-
-/* AREA RESPONSIVA*/
-
-@media screen and (max-width: 1220px) {
-    .banner {
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        height: 20em;
-    }
-    .banner-frase p {
-        font-size: 70px;
-        
-    } 
-}
-@media screen and (max-width: 768px) {
-    /*PRIMEIRA SESSÃO*/
-    .banner {
-        height: 20em;
-    }
-    .banner-frase p {
-        font-size: 36px;
-        
-        padding-bottom: 50px;
-    }
-    section {
-        max-width: 768px;
-
-    }
-    p{
-        width: auto;
-    }
-
-    /*SEGUNDA SESSÃO*/
-    .sessao2 {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    .area-img img {
-        width: 22em;
-    }
-    .area-info {
-        width: 90%;
-    }
-
-    /*TERCEIRA SESSÃO*/
-    .sessao3{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .infor h2{
-        width: 90%;
-    }
-    .infor p{
-        width: 90%;  
-    }
-
-    /*QUARTA SESSÃO*/
-    .sessao4 {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .sessao4-infor {
-        width: 90%;
-    }
-    
-    /*QUINTA SESSÃO*/
-    .sessao5 {
-        display: flex;
-        flex: row wrap;
-    }
-    .cards{
-        display: flex;
-        flex:row wrap ;
-        background-color: green;
-    }
 }

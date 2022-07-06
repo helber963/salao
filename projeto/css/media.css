@@ -1,0 +1,106 @@
+
+/* AREA RESPONSIVA*/
+
+@media screen and (max-width: 1220px) {
+    /*PRIMEIRA SESSÃO*/
+    .banner {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 20em;
+    }
+    .banner-frase p {
+        font-size: 70px;
+        } 
+    
+      /*SEXTA SESSÃO*/
+      .mapa{
+        height: 500px;
+        background-size: 100% 100%;
+    }
+    .contato {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    /*PRIMEIRA SESSÃO*/
+    .banner {
+        height: 20em;
+    }
+    .banner-frase p {
+        font-size: 36px;
+        
+        padding-bottom: 50px;
+    }
+    section {
+        max-width: 768px;
+
+    }
+    p{
+        width: auto;
+    }
+
+    /*SEGUNDA SESSÃO*/
+    .sessao2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .area-img img {
+        width: 22em;
+    }
+    .area-info {
+        width: 90%;
+    }
+
+    /*TERCEIRA SESSÃO*/
+    .sessao3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .infor h2{
+        width: 90%;
+    }
+    .infor p{
+        width: 90%;  
+    }
+
+    /*QUARTA SESSÃO*/
+    .sessao4 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sessao4-infor {
+        width: 90%;
+    }
+    
+    /*QUINTA SESSÃO*/
+    .sessao5 {
+        display: flex;
+        flex: row wrap;
+    }
+    .cards{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .card-services {
+        margin: 0 10px;
+    }
+    
+    /*SEXTA SESSÃO*/
+    .mapa{
+        height: 500px;
+        background-size: 100% 100%;
+    }
+    .contato {
+        width: 90%;
+    }
+
+
+
+}
