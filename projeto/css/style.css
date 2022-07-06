@@ -143,14 +143,10 @@
     background-size: 100% auto;
     height: 722px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    margin-bottom: 130px;
+    margin-bottom: -150px;
 
 }
-.area-contato{
+.contato{
     background-color: #cb686a;
     width: 850px;
     height: 178px;
@@ -193,6 +189,7 @@ footer{
     } 
 }
 @media screen and (max-width: 768px) {
+    /*PRIMEIRA SESSÃO*/
     .banner {
         height: 20em;
     }
@@ -207,5 +204,53 @@ footer{
     }
     p{
         width: auto;
+    }
+
+    /*SEGUNDA SESSÃO*/
+    .sessao2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .area-img img {
+        width: 22em;
+    }
+    .area-info {
+        width: 90%;
+    }
+
+    /*TERCEIRA SESSÃO*/
+    .sessao3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .infor h2{
+        width: 90%;
+    }
+    .infor p{
+        width: 90%;  
+    }
+
+    /*QUARTA SESSÃO*/
+    .sessao4 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sessao4-infor {
+        width: 90%;
+    }
+    
+    /*QUINTA SESSÃO*/
+    .sessao5 {
+        display: flex;
+        flex: row wrap;
+    }
+    .cards{
+        display: flex;
+        flex:row wrap ;
+        background-color: green;
     }
 }
